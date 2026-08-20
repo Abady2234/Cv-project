@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import {createRoot} from "react-dom/client";
-import {ArrowRight,Check,Download,FileText,Linkedin,Lock,Sparkles,Upload,Wand2} from "lucide-react";
+import {ArrowRight,Check,Download,FileText,LinkedinIcon,Lock,Sparkles,Upload,Wand2} from "lucide-react";
 import "./styles.css";
 
 type CV={name:string;title:string;location:string;email:string;phone:string;linkedin:string;summary:string;experience:{role:string;company:string;dates:string;bullets:string[]}[];education:{school:string;degree:string;dates:string}[];skills:string[];certifications:string[]};
